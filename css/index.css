@@ -1,0 +1,204 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Source Sans Pro',Arial,sans-serif;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    min-height: 80px !important;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar .logo-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar .acesso-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar .logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome-logo {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.logo-img {
+    width: 37px;
+    height: 37px;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+    color: white;
+}
+
+.github-btn {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.conteudo-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.input-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+
+.input-container .def-div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container .def-div label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.input-container .def-div input {
+    width: 90%;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.tabela-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    padding-right: 40px;
+    gap: 15px;
+}
+
+.tabela-img {
+    width: 100%;
+    height: auto;
+}
+
+.info-div {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-icon {
+    font-size: 15px;
+    color: #868686;
+    width: 15px;
+}
+
+.sobre-texto {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .conteudo-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .input-container {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .input-container .def-div {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .input-container .def-div label {
+        width: 90%;
+    }
+
+    .tabela-container {
+        width: auto;
+        height: 50%;
+        padding: 20px;
+    }
+}
+
