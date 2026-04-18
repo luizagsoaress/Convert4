@@ -6,7 +6,7 @@ A lógica de conversão foi escrita em C pela eficiência da linguagem em opera�
 
 O backend está hospedado no Render, o frontend faz chamadas pra ele e atualiza os quatro inputs em tempo real. Preencha qualquer um e os outros três são convertidos na hora.
 
-![image](./gitPhotos/github(total).png)
+![image](./imagens/gitPhotos/github(total).png)
 
 
 ## Funcionalidades
