@@ -25,6 +25,10 @@ O backend está hospedado no Render, o frontend faz chamadas pra ele e atualiza 
 | JavaScript | Interatividade com o Frontend e chamadas do servidor |
 | Render | Hospedagem do backend em C |
 
+## Render
+
+O plano de hospedagem usado foi o básico, por esse motivo, é provável a existência de um delay na primeira requisição.
+
 ## Web site
 
 > [Acesse aqui](https://luizagsoaress.github.io/Convert4/)
